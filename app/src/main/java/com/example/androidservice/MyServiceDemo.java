@@ -17,15 +17,14 @@ public class MyServiceDemo extends Service {
     @Override
     public int onStartCommand(Intent intent, int flag,int startId)
     {
-        Toast.makeText(this, "Service Started", Toast.LENGTH_SHORT).show();
-        Log.d("Display","hi!");
+        Toast.makeText(this, "Service started", Toast.LENGTH_LONG).show();
         return START_STICKY;
     }
     @Override
     public void onDestroy()
     {
         super.onDestroy();
-        Toast.makeText(this,"Service Destroyed",Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Service Destroyed", Toast.LENGTH_LONG).show();
 
     }
 }
