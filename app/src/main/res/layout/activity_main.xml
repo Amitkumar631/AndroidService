@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:gravity="center"
+        android:textSize="@dimen/textHeaderSize"
+        android:layout_margin="@dimen/commonMargin"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="@dimen/normalSize"
+        android:textColor="@color/orange"
+        android:layout_margin="@dimen/commonMargin"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/startServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/commonMargin"
+        android:backgroundTint="@color/green"
+        android:text="startService"
+        android:textSize="@dimen/normalSize"
+        android:textAllCaps="false"/>
+
+
+    <Button
+        android:id="@+id/stopServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/commonMargin"
+        android:backgroundTint="@color/blue"
+        android:text="stopService"
+        android:textSize="@dimen/normalSize"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
